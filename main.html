@@ -4,10 +4,60 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
-</head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <body>
 	<!-- the entire body must be written by student -->
+<div class="table-responsive">
+	
+	<table class="table table-hover">
+		<caption style="caption-side:top">List of all transcations</caption>
+		<thead class="table-dark">
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">From</th>
+				<th scope="col">To</th>
+				<th scope="col">Amount($)</th>
+			</tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<th scope="row">1</th>
+			<td>Mark</td>
+			<td>Otto</td>
+			<td>1000</td>
+		  </tr>
+		  <tr>
+			<th scope="row">2</th>
+			<td>Jacob</td>
+			<td>Thornton</td>
+			<td>1500</td>
+		  </tr>
+		  <tr>
+			<th scope="row">3</th>
+			<td>Larry</td>
+			<td>the Bird</td>
+			<td>2000</td>
+		  </tr>
+		  <tfoot class="table-light">
+
+			  <tr>
+				  <td colspan="3" id="total" class="fw-bold font-monospace text-end">Total</td>
+				  <td class="fw-bold">4000</td>
+				</tr>
+			</tfoot>
+		  
+		</tbody>
+		
+		
+	  </table>
+</div>
+
+
+
+
     <script type="text/javascript" src="./script.js">
 </script>
 
